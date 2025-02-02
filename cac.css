@@ -1,0 +1,172 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #c50000;
+}
+
+
+nav {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linksie{
+    text-decoration: none;
+
+}
+
+
+
+
+nav .searchbar {
+    width: 200px;
+    padding:3px;
+    border: none;
+    border-radius: 0;
+    margin-right: 50px;
+}
+
+
+
+
+
+.hero {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST5a98hEBspre8XW4jUTfcZYTESq7AwT2L6g&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration:underline;
+    padding: 120px 2px;
+    
+    vertical-align: top;
+}
+
+.hero .atagbutton {
+    background: white;
+    color: #6a11cb;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.hero .atagbutton:hover {
+    background: #f1f1f1;
+}
+
+.book-container {
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    padding-left: 45px ;
+}
+
+.book {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 300px;
+    height:600px;
+    transition: transform 1s ease;
+}
+
+.book:hover {
+    transform: scale(1.05);
+}
+
+.book img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.category-box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.category-box button {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-box button:hover {
+    background: rgb(46, 4, 88);
+}
+
+.review-container{
+    display:grid;
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+}
+.review{
+    height: 46.8px;
+    margin:0;
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    border-radius: 18.4px;
+    grid-template-columns: 20px 1fr;
+
+}
+
+.drake{
+    height: 20px;
+    width: 20px;
+}
+.pfp{
+    justify-content: left;
+}
+.insta{
+    width: 20px;
+    height: 20px;
+}
+
+
+.askforrev{
+    text-align: center;
+    
+}
+.name{
+    margin-top: 20px;
+}
+.namebox{
+    width: 75%;
+}
+
+
+footer {
+    background: black;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: lightblue;
+    text-decoration: none;
+}
