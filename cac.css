@@ -157,7 +157,10 @@ nav .searchbar {
 .namebox{
     width: 75%;
 }
-
+.write-review{
+    width:75%;
+    height: 60px;
+}
 
 footer {
     background: black;
